@@ -1,5 +1,10 @@
+# Data directory
 path:
   data:    /data/elasticsearch/data
   logs:    /data/elasticsearch/log
   plugins: /data/elasticsearch/plugins
   work:    /data/elasticsearch/work
+
+# Disable multicast discovery
+discovery:
+  zen.ping.multicast.enabled: false
